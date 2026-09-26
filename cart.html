@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cart - Boiyk Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <h2>Boiyk Store</h2>
+
+        <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#products">Products</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+
+        <button class="cart-btn">
+            Cart
+        </button>
+
+    </nav>
+
+
+    <!-- Cart -->
+    <main>
+
+        <section class="cart-section">
+
+            <h1>Your Cart</h1>
+
+            <div class="cart-container">
+
+                <div class="cart-items">
+
+                    <div class="cart-item">
+
+                        <img src="product-1.jpg" alt="Baju Polos">
+
+                        <div class="cart-item-info">
+                            <h3>Baju Polos</h3>
+                            <p class="price">IDR350,000</p>
+                        </div>
+
+                        <div class="qty-controls">
+                            <button type="button" class="qty-btn">-</button>
+                            <input type="number" value="1" min="1">
+                            <button type="button" class="qty-btn">+</button>
+                        </div>
+
+                        <p class="item-subtotal">IDR350,000</p>
+
+                        <button class="remove-btn" aria-label="Remove item">&times;</button>
+
+                    </div>
+
+                    <div class="cart-item">
+
+                        <img src="product-3.jpg" alt="Celana Cargo">
+
+                        <div class="cart-item-info">
+                            <h3>Celana Cargo</h3>
+                            <p class="price">IDR500,000</p>
+                        </div>
+
+                        <div class="qty-controls">
+                            <button type="button" class="qty-btn">-</button>
+                            <input type="number" value="2" min="1">
+                            <button type="button" class="qty-btn">+</button>
+                        </div>
+
+                        <p class="item-subtotal">IDR1,000,000</p>
+
+                        <button class="remove-btn" aria-label="Remove item">&times;</button>
+
+                    </div>
+
+                </div>
+
+                <div class="cart-summary">
+
+                    <h2>Order Summary</h2>
+
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span>IDR1,350,000</span>
+                    </div>
+
+                    <div class="summary-row">
+                        <span>Shipping</span>
+                        <span>IDR20,000</span>
+                    </div>
+
+                    <div class="summary-row summary-total">
+                        <span>Total</span>
+                        <span>IDR1,370,000</span>
+                    </div>
+
+                    <a href="checkout.html">
+                        <button class="shop-btn checkout-btn">
+                            Checkout
+                        </button>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <div class="footer-content">
+
+            <h2>Boiyk Store</h2>
+
+            <p>
+                Your simple and reliable online store.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Github</a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
